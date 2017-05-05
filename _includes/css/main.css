@@ -64,21 +64,21 @@ hr {
   border-color: {{ site.colors.black }};
 }
 
-.container { word-wrap: break-word; }
+.con { word-wrap: break-word; }
 .center { text-align: center; }
-.left, .container .left { text-align: left; }
+.left, .con .left { text-align: left; }
 
-.container h1, .container h2, .container h3, .container h4 {
+.con h1, .con h2, .con h3, .con h4 {
   margin-bottom: 20px;
   text-align: center;
   padding: 0 4%;
 }
-.container p, .container ol, .container ul {
+.con p, .con ol, .con ul {
   font-size: 17px;
   padding: 0 5%;
 }
-.container ol, .container ul { padding: 0 8%; }
-.container p:first-of-type {
+.con ol, .con ul { padding: 0 8%; }
+.con p:first-of-type {
     margin-top: 40px;
 }
 
@@ -187,7 +187,7 @@ nav ul li:hover, nav ul li.active {
   background-color:#2e2e2e;
   background-image:none;
 }
-#footer .container p { font-size:13px; margin:0; }
+#footer .con p { font-size:13px; margin:0; }
 
 .subtlecircle {
   text-align:center;
@@ -303,8 +303,6 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-
-
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
@@ -317,14 +315,15 @@ nav ul li:hover, nav ul li.active {
 /* tiny size (phones) */
 @media only screen and (max-width: 380px) {
   nav ul li { min-width:90px; line-height:20px; }
+
 }
 
 /* anything not desktop */
 @media only screen and (max-width: 767px) {
-	.container h1 { font-size: 30px; }
-	.container h2 { font-size: 24px; }
-	.container h3 { font-size: 20px; }
-	.container h4 { font-size: 18px; }
+  .con h1 { font-size: 30px; }
+  .con h2 { font-size: 24px; }
+  .con h3 { font-size: 20px; }
+  .con h4 { font-size: 18px; }
 
 
   .section { padding:130px 0; }
@@ -355,3 +354,6 @@ nav ul li:hover, nav ul li.active {
     column-count:         2;
   }
 }
+
+// custom 
+

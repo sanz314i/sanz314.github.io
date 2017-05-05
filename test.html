@@ -1,0 +1,38 @@
+<form action="/" id="registration-form">
+  <p>
+    E-mail
+    <input name="email" data-validation="email">
+  </p>
+  <p>
+    User name
+    <input name="user" data-validation="length alphanumeric" 
+     data-validation-length="3-12" 
+     data-validation-error-msg="User name has to be an alphanumeric value (3-12 chars)">
+  </p>
+  
+  <p>
+    <input value="Validate" type="submit">
+    <input value="Reset form" type="reset">
+  </p>
+</form>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script>
+  $.validate({
+    modules : 'location, date, security, file',
+    onModulesLoaded : function() {
+      $('#country').suggestCountry();
+    },
+     onSuccess : function($form) {
+        formSub();
+      alert('The form '+$form.attr('id')+' is valid!');
+      return False; // Will stop the submission of the form
+    }
+  });
+  // Restrict presentation length
+  $('#presentation').restrictLength( $('#pres-max-length') );
+
+  function formSub() {
+      window.open("/thank.html", "MsgWindow", "scrollbars=yes,resizable=yes,top=180,left=200,width=600,height=600");
+  }
+</script>

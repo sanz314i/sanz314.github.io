@@ -1,0 +1,224 @@
+.help-text {
+ font-size:	18px;
+ font-style: italic;
+}
+
+.help-question {
+	color:#FF820D;
+	font-size:300px;
+	margin-top:-65px;
+}
+
+.need-help{
+	margin-top:-120px;
+	font-size:20px;
+	margin-left:-500px;
+	padding:0px;
+}
+
+.instruct-contact {
+	margin-left:-100px;
+	margin-top: 60px;
+}
+
+.help-text-pos {
+	margin-left:-230px;
+}
+
+.main-row-pos {
+	margin-left: -100px;
+}
+
+.pos-main-help {
+	margin-left:100px;
+}
+
+.pos-main-text {
+	margin-top: -100px;
+	margin-left: 10px;
+	font-size: 24px;
+}
+
+.need-help {
+	margin-top: -115px;
+	margin-left: 45px;
+}
+
+.help-question-small{
+	color:yellow;
+	font-size:200px;
+	margin-top:-65px;
+}
+
+.pos-main-help-small {
+	margin-left:10px;
+
+}
+
+.need-help-small {
+	margin-top: -65px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.pos-main-text-small {
+	margin-top: -100px;
+	margin-left: -5px;
+	font-size: 20px;
+}
+
+.info-display {
+	color:#C784ED;
+	font-size:1.4em;
+}
+
+.contact-help {
+	color:#FF820D;
+	font-size:100px;
+}
+
+.contact-text {
+	margin-top:-40px;
+}
+
+.btn-log {
+	margin-top:-40px;
+	background-color:#D2B48C;
+	color:#000000;
+}
+
+.btn-log:hover {
+	background-color:#B89D7A;
+}
+
+.img-margin {
+	margin-bottom:30px;
+}
+
+.phone-no {
+	font-size:2em;
+	color:white;
+	margin-left:100px;
+}
+
+.contact-email {
+	font-size:2em;
+	color:white
+	
+}
+
+.phone-group {
+	background-color: rgba(25, 25, 25, .5);
+}
+
+.email-group {
+	background-color: rgba(193, 66, 66, 0.3)
+}
+
+.social-icon {
+	font-size:50px;
+}
+
+.nav-social-icon {
+	font-size: 30px;
+	color: white;
+}
+
+.link3d {
+
+}
+
+.link3d ul li {
+	display: inline-block;
+	font-size: 50px;
+	margin-left: 18px;
+	margin-bottom:40px;
+}
+
+.get3dinfo p {
+	font-size:20px;
+	margin-bottom:50px;
+
+}
+
+.nav-twitter {
+	margin-left:-110px;
+
+}
+
+.check{
+ 	table-layout:auto;
+}
+
+ @media screen and (max-width: 480px) {
+ 	.contact-email {
+ 		font-size:1.5em;
+ 	}
+
+ 	.phone-no {
+ 		font-size:1.5em;
+ 	}
+    
+  }
+
+.form-error {
+	color:red !important;
+	font-size:18px;
+}
+
+.next-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.next-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.next-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.next-button:hover span {
+  padding-right: 25px;
+}
+
+.next-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.modal-message {
+	color:black;
+}
+
+#proceed-modal {
+	
+}
+
+.custom-header {
+	padding:0px;
+	margin:0px;
+}
+
+.modal-btn {
+	visibility:hidden;
+} 
