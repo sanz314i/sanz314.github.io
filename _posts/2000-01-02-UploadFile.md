@@ -4,6 +4,7 @@ bg: black
 color: white
 fa-icon: cloud-upload
 ---
+
 <div class="container">
   <div class="row">
     <div class="col-md-6">
@@ -70,8 +71,9 @@ fa-icon: cloud-upload
               <i class="fa fa-question"></i>
               </div>
             </th>
-            <td><p class="pos-main-text">Instruction<br>
-                Direct Contact</p>
+            <td><span class="pos-main-text">
+                <a href="{{ site.url}}/uploadins" target="_blank">How to upload?</a><br>
+                <a href="{{ site.url}}/#contact">Direct Contact</a></span>
             </td>
           </tr>
           <tr>
@@ -94,8 +96,9 @@ fa-icon: cloud-upload
               <i class="fa fa-question"></i>
               </div>
             </th>
-            <td><p class="pos-main-text-small">Instruction<br>
-                Direct Contact</p>
+            <td><span class="pos-main-text-small">
+                <a href="{{ site.url}}/uploadins" target="_blank">How to upload?</a><br>
+                <a href="{{ site.url}}/#contact">Direct Contact</a></span>
             </td>
           </tr>
           <tr>
@@ -114,14 +117,14 @@ fa-icon: cloud-upload
         targetid="'#upload-modal'"  
         modalid="'upload-modal'" 
         msg="Please click Next to upload file. You'll be redirect to dropbox for upload. We'll contact you shortly once the file has been analyzed by us." 
-        modal_body_btn="'uploadnext'"
+        modal_body_btn_id="'uploadnext'"
         btn_name= "Next>>"
         %}
 
 <script>
 //fileSubmit accepts four parameters
 //1. name of the form, 2. id of a button to open modal. 
-//3. button inside below message 4. main form submit.
+//3. id of a button inside modal body 4. main form submit.
   function fileSubmit(formname,openmodal, modal_body_btn, main_form_submit) 
   {
       $modal_status=false;

@@ -12,6 +12,8 @@ timezone: null
 lsi: false
 markdown: kramdown
 
+include: ['_pages']
+
 
 ### content configuration ###
 title:       "SinglePaged - Simple Jekyll template"

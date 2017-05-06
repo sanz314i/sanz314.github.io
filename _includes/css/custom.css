@@ -45,7 +45,7 @@
 }
 
 .help-question-small{
-	color:yellow;
+	color:#FF820D;
 	font-size:200px;
 	margin-top:-65px;
 }
@@ -64,7 +64,7 @@
 .pos-main-text-small {
 	margin-top: -100px;
 	margin-left: -5px;
-	font-size: 20px;
+	font-size:1.8em;
 }
 
 .info-display {
@@ -158,7 +158,25 @@
  	.phone-no {
  		font-size:1.5em;
  	}
-    
+
+ 	label {
+ 		font-size:1.5em;
+
+ 	}
+
+ 	.link3d {
+ 		margin-left: -50px;
+ 	}
+
+ 	.link3d li {
+ 		font-size: 1.8em !important;
+ 		margin-bottom: 15px !important;
+ 	}
+
+ 	.sm-msg-form {
+ 		margin-top: 40px;
+
+ 	}
   }
 
 .form-error {
@@ -222,3 +240,11 @@
 .modal-btn {
 	visibility:hidden;
 } 
+
+.ins {
+	margin-bottom: 100px;
+	color:red;
+	font-size:20px;
+
+}
+
