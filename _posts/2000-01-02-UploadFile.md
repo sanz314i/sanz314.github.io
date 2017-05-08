@@ -122,7 +122,7 @@ fa-icon: cloud-upload
         %}
 
 <script>
-//fileSubmit accepts four parameters
+//fileSub mit accepts four parameters
 //1. name of the form, 2. id of a button to open modal. 
 //3. id of a button inside modal body 4. main form submit.
   function fileSubmit(formname,openmodal, modal_body_btn, main_form_submit) 

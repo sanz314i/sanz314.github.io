@@ -91,6 +91,26 @@
 	background-color:#B89D7A;
 }
 
+.btn-upload {
+	margin-top:-40px;
+	background-color:#111111;
+	color:white;
+	border:none;
+}
+.btn-upload:hover {
+	background-color:#ffcc00;
+	color:black;
+}
+.btn-upload.active {
+ 	background-color:#red;
+	color:black;
+}
+
+.btn-log:hover {
+	background-color:#B89D7A;
+}
+
+
 .img-margin {
 	margin-bottom:30px;
 }
