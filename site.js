@@ -71,7 +71,7 @@ $.extend($.easing,
 
 
 $(document).ready(function (){
-
+    
     $('nav li a').navScroller();
 
     //section divider icon click gently scrolls to reveal the section
