@@ -4,7 +4,6 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
-
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
 permalink: /:title ## disables post output
@@ -14,10 +13,9 @@ markdown: kramdown
 
 include: ['_pages']
 
-
 ### content configuration ###
-title:       "Mauri3Dprint - 3D printer service in Nepal"
-keywords:    "3d , jekyll, template, github, blog, single page"
+title:       "Mauri3dprint - 3D printer service in Nepal"
+keywords:    "3d print nepal,3d printer nepal, filament nepal, buy 3d printer nepal, 3d printer price nepal, nepal 3d printer"
 description: "3d printer service in Nepal"
 source_link: ""
 favicon:     "img/favicon.ico"
@@ -42,4 +40,4 @@ kramdown:
 
 
 baseurl: ""
-url: "http://mauri3dprint.com/"
+url: "http://0.0.0.0:4000/"
