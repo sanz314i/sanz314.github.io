@@ -193,7 +193,11 @@
  		margin-bottom: 15px !important;
  	}
  	.sm-msg-form {
- 		margin-top: 40px;d
+ 		margin-top: 40px;
+ 	}
+
+ 	#maurilogo {
+ 		display:none;
  	}
   }
 
@@ -225,20 +229,20 @@
 	font-size:20px;
 }
 
-.intro-text ul { font-weight: bold}
-.intro-text ul li:first-child {
-	color:#C784ED;
-}
-.intro-text ul li:not(:first-child) {
-	color:#FF8C00;
+.intro-text ul { 
+	font-weight: bold;
+	list-style-type: none;
+  	margin-left:-35px;
+	color:white;	
 
-	}
-.intro-text ul {
-  list-style-type: none;
-  margin-left:-35px;
 }
 
 .intro-info {
-	background-color: rgba(0, 0, 0, 0.67);	
+	background-color:rgba(53, 48, 48, 0.60);	
+	margin-top: -60px;
+}
+
+#mainnav {
+	background-color: #666666;
 }
 
